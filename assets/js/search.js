@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('searchInput');
-    const searchResults = document.getElementById('searchResults');
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+    const searchDescription = document.getElementById('search-description');
+    const searchNote = document.getElementById('search-note');
     let dictionary = [];
 
     fetch('/assets/data/dictionary.json')
@@ -17,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             searchResults.innerHTML = '<p class="error">Failed to load dictionary. Please try again later.</p>';
         });
 
-    const normalizeText = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const normalizeText = text => text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
     const searchDictionary = query => {
         if (!query) {
@@ -25,61 +27,36 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const normalizedQuery = normalizeText(query.toLowerCase());
-        const results = dictionary.filter(entry => {
-            const searchableText = [entry.gaidhlig, entry.gaeilge, entry.gaelg, entry.beurla, entry.definition].join(' ');
-            return normalizeText(searchableText.toLowerCase()).includes(normalizedQuery);
-        });
+        const normalizedQuery = normalizeText(query);
+        const results = dictionary.filter(entry => 
+            normalizeText(entry.word).includes(normalizedQuery) ||
+            entry.translations.some(t => normalizeText(t.value).includes(normalizedQuery))
+        );
 
         displayResults(results);
     };
 
     const displayResults = results => {
         if (results.length === 0) {
-            searchResults.innerHTML = '<p class="no-results">No results found</p>';
+            searchResults.innerHTML = `<p class="no-results">${window.siteContent.search.no_results}</p>`;
             return;
         }
 
-        const resultsHTML = results.map(entry => `
+        searchResults.innerHTML = results.map(entry => `
             <div class="dictionary-entry">
-                <div class="entry-header">
-                    <span class="word">${entry.gaidhlig}</span>
-                    <button class="toggle-button" aria-label="Toggle entry details">
-                        <span class="toggle-icon">▶</span>
-                    </button>
+                <h3>${entry.word}</h3>
+                <div class="translations">
+                    ${entry.translations.map(t => `
+                        <div class="translation">
+                            <span class="translation-label">${window.siteContent.translations[t.language]}:</span>
+                            <span class="translation-value">${t.value}</span>
+                        </div>
+                    `).join('')}
                 </div>
-                <div class="entry-content collapsed">
-                    ${entry.grammar ? `
-                        <div class="grammar">
-                            <span class="translation-label">Gràmar</span>
-                            <span class="translation-value">${entry.grammar}</span>
-                        </div>
-                    ` : ''}
-                    ${entry.definition ? `
-                        <div class="definition">
-                            <span class="translation-label">Mìneachadh</span>
-                            <span class="translation-value">${entry.definition}</span>
-                        </div>
-                    ` : ''}
-                    <div class="translations">
-                        <div class="translation">
-                            <span class="translation-label">Gaeilge</span>
-                            <span class="translation-value">${entry.gaeilge || ''}</span>
-                        </div>
-                        <div class="translation">
-                            <span class="translation-label">Gaelg</span>
-                            <span class="translation-value">${entry.gaelg || ''}</span>
-                        </div>
-                        <div class="translation">
-                            <span class="translation-label">Beurla</span>
-                            <span class="translation-value">${entry.beurla || ''}</span>
-                        </div>
-                    </div>
-                </div>
+                ${entry.grammar ? `<div class="grammar">${window.siteContent.translations.grammar}: ${entry.grammar}</div>` : ''}
+                ${entry.definition ? `<div class="definition">${window.siteContent.translations.definition}: ${entry.definition}</div>` : ''}
             </div>
         `).join('');
-
-        searchResults.innerHTML = resultsHTML;
 
         searchResults.querySelectorAll('.toggle-button').forEach(button => {
             button.addEventListener('click', () => {
