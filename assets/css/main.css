@@ -23,6 +23,8 @@
     --result-border: #5f6368;
     --result-hover: #303134;
     --secondary-text: #9aa0a6;
+    --brand-color: #3498db;
+    --brand-color-dark: #2980b9;
 }
 
 :root[data-theme="light"] {
@@ -133,7 +135,7 @@ h1 {
     font-size: 1.1em;
     border: 2px solid var(--border-color);
     border-radius: 8px;
-    background-color: var(--bg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
     transition: border-color 0.3s ease;
 }
@@ -175,12 +177,12 @@ h1 {
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px var(--shadow-color);
     transition: box-shadow 0.2s;
 }
 
 .dictionary-entry:hover {
-    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    box-shadow: 0 1px 6px var(--shadow-color);
 }
 
 .word {
@@ -252,6 +254,19 @@ h1 {
 .entry-content.collapsed {
     max-height: 0;
     margin-top: 0;
+}
+
+.error {
+    color: var(--error-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.no-results {
+    text-align: center;
+    color: var(--text-color);
+    opacity: 0.8;
+    padding: 20px;
 }
 
 .description {
