@@ -1,84 +1,27 @@
-# Faclair nan Gèidheal
+# Faclair nan Gèidheal - Deployment Branch
 
-A dictionary of Scottish Gaelic LGBTQIA+ vocabulary, with Irish, Manx and English translations.
+This is the deployment branch for [Faclair nan Gèidheal](https://faclair.lgbt), a dictionary of Scottish Gaelic LGBTQIA+ vocabulary.
 
-Visit the dictionary at [faclair.lgbt](https://faclair.lgbt)
+## About This Branch
 
-## Prerequisites
+This branch (`gh-pages`) contains the built and deployed version of the website. It is automatically updated when changes are pushed to the main branch and `npm run deploy` is executed.
 
-- Node.js (v14 or higher)
-- npm or yarn
+## Important Files
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/angeidheal/faclair-nan-geidheal.git
-cd faclair-nan-geidheal
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
+- `index.html` - The main entry point
+- `CNAME` - Custom domain configuration for faclair.lgbt
+- `static/` - Compiled JavaScript, CSS, and other assets
 
 ## Development
 
-To start the development server:
+⚠️ **Do not make direct changes to this branch.** 
 
-```bash
-npm start
-```
+All development should be done on the `main` branch. This branch is automatically updated by the deployment process.
 
-This will start the React development server at http://localhost:3000
+## Live Site
 
-## Deployment
+Visit the dictionary at [faclair.lgbt](https://faclair.lgbt)
 
-The site is deployed to GitHub Pages with a custom domain. To deploy new changes:
+## Source Code
 
-```bash
-npm run deploy
-```
-
-This will:
-1. Build the project
-2. Deploy to the gh-pages branch
-3. Serve the site at [faclair.lgbt](https://faclair.lgbt)
-
-## Project Structure
-
-- `/src` - React source code
-  - `/components` - Reusable React components
-  - `/pages` - Page components
-  - `/services` - Data and API services
-  - `/types` - TypeScript type definitions
-- `/public` - Static assets and HTML template
-  - `CNAME` - Custom domain configuration
-  - `assets/` - Images and other static files
-
-## Technologies Used
-
-- React with TypeScript
-- Material-UI (MUI) for components and theming
-- React Router for navigation
-- Howler.js for audio playback
-- GitHub Pages for hosting
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Material-UI for the component library
-- Howler.js for audio playback
-- React for the framework
-- GitHub Pages for hosting
+The source code for this project is available in the [`main` branch](https://github.com/angeidheal/faclair-nan-geidheal/tree/main). 
