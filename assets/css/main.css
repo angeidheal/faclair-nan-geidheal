@@ -423,15 +423,4 @@ a {
 a:hover {
     color: var(--link-hover-color);
     text-decoration: underline;
-}
-
-.language-switcher {
-    display: flex;
-    gap: 0.5rem;
-    margin-left: 1rem;
-}
-
-.language-switcher .nav-button {
-    font-size: 0.9rem;
-    padding: 0.25rem 0.5rem;
 } 

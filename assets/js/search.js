@@ -3,11 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchResults = document.getElementById('searchResults');
     let dictionary = [];
 
-    // Get the current language from the HTML lang attribute
-    const currentLang = document.documentElement.lang;
-    const dictionaryFile = currentLang === 'ga' ? '/assets/data/dictionary.gaeilge.json' : '/assets/data/dictionary.json';
-
-    fetch(dictionaryFile)
+    fetch('/assets/data/dictionary.json')
         .then(response => {
             if (!response.ok) throw new Error('Failed to load dictionary');
             return response.json();
