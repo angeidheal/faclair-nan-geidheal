@@ -8,4 +8,27 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag 
+  - jekyll-seo-tag
+
+# Site content
+content:
+  search:
+    placeholder: "Lorg facal..."
+    no_results: "No results found"
+    description: "Search in Gàidhlig, Gaeilge, Gaelg or English."
+    note: "Not all entries have a Gaelg translation."
+  navigation:
+    search: "Lorg"
+    browse: "Brabhsaich"
+    about: "Mu dheidhinn"
+  footer:
+    by: "leis"
+    link_text: "a' Ghèidheal Ùr"
+    link_url: "https://angeidhealur.scot/"
+  translations:
+    gaidhlig: "Gàidhlig"
+    gaeilge: "Gaeilge"
+    gaelg: "Gaelg"
+    beurla: "Beurla"
+    grammar: "Gràmar"
+    definition: "Mìneachadh" 
