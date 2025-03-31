@@ -1,0 +1,38 @@
+# Site settings
+title: "Fockleyr ny Gaylgyryn"
+description: "Fockleyr jeh focklyn LGBTQIA+"
+baseurl: ""
+url: "https://fockleyr.lgbt"
+
+# Language settings
+language: gaelg
+languages:
+  gaidhlig:
+    name: Gàidhlig
+    code: gd
+    domain: faclair.lgbt
+  gaeilge:
+    name: Gaeilge
+    code: ga
+    domain: focloir.lgbt
+  gaelg:
+    name: Gaelg
+    code: gv
+    domain: fockleyr.lgbt
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/ 
