@@ -11,25 +11,6 @@ import {
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import NavButton from './NavButton';
-import LanguageSwitcher from './LanguageSwitcher';
-import { useLanguage } from '../contexts/LanguageContext';
-
-const translations = {
-  gd: {
-    home: 'Dachaigh',
-    browse: 'Brabhsaich',
-    about: 'Mu dheidhinn',
-    skipToContent: 'Skip to main content',
-    copyright: '© {year} Faclair nan Gèidheal. All rights reserved.',
-  },
-  ga: {
-    home: 'Baile',
-    browse: 'Brabhsáil',
-    about: 'Faoi',
-    skipToContent: 'Skip to main content',
-    copyright: '© {year} Faclair nan Gèidheal. Gach ceart ar cosaint.',
-  },
-};
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -39,8 +20,6 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children, onThemeToggle, isDarkMode }) => {
   const navigate = useNavigate();
-  const { language } = useLanguage();
-  const t = translations[language];
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -66,7 +45,7 @@ const Layout: React.FC<LayoutProps> = ({ children, onThemeToggle, isDarkMode }) 
           },
         }}
       >
-        {t.skipToContent}
+        Skip to main content
       </Box>
 
       <AppBar 
@@ -90,23 +69,22 @@ const Layout: React.FC<LayoutProps> = ({ children, onThemeToggle, isDarkMode }) 
             ariaLabel="Go to home page"
             isDarkMode={isDarkMode}
           >
-            {t.home}
+            Dachaigh
           </NavButton>
           <NavButton
             onClick={() => navigate('/brabhsaich')}
             ariaLabel="Browse all words"
             isDarkMode={isDarkMode}
           >
-            {t.browse}
+            Brabhsaich
           </NavButton>
           <NavButton
             onClick={() => navigate('/mu-dheidhinn')}
             ariaLabel="About the dictionary"
             isDarkMode={isDarkMode}
           >
-            {t.about}
+            Mu dheidhinn
           </NavButton>
-          <LanguageSwitcher />
           <IconButton 
             onClick={onThemeToggle}
             aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
@@ -148,7 +126,7 @@ const Layout: React.FC<LayoutProps> = ({ children, onThemeToggle, isDarkMode }) 
       >
         <Container maxWidth="sm">
           <Typography variant="body2" color="text.secondary" align="center">
-            {t.copyright.replace('{year}', new Date().getFullYear().toString())}
+            © {new Date().getFullYear()} Faclair nan Gèidheal. All rights reserved.
           </Typography>
         </Container>
       </Box>

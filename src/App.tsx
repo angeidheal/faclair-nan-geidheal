@@ -7,7 +7,6 @@ import SearchPage from './pages/SearchPage';
 import { EntryPage } from './pages/EntryPage';
 import AboutPage from './pages/AboutPage';
 import BrowsePage from './pages/BrowsePage';
-import { LanguageProvider } from './contexts/LanguageContext';
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -155,18 +154,16 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <LanguageProvider>
-        <Router>
-          <Layout onThemeToggle={() => setIsDarkMode(!isDarkMode)} isDarkMode={isDarkMode}>
-            <Routes>
-              <Route path="/" element={<SearchPage />} />
-              <Route path="/:id" element={<EntryPage />} />
-              <Route path="/mu-dheidhinn" element={<AboutPage />} />
-              <Route path="/brabhsaich" element={<BrowsePage />} />
-            </Routes>
-          </Layout>
-        </Router>
-      </LanguageProvider>
+      <Router>
+        <Layout onThemeToggle={() => setIsDarkMode(!isDarkMode)} isDarkMode={isDarkMode}>
+          <Routes>
+            <Route path="/" element={<SearchPage />} />
+            <Route path="/:id" element={<EntryPage />} />
+            <Route path="/mu-dheidhinn" element={<AboutPage />} />
+            <Route path="/brabhsaich" element={<BrowsePage />} />
+          </Routes>
+        </Layout>
+      </Router>
     </ThemeProvider>
   );
 }

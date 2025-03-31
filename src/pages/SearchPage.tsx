@@ -18,42 +18,12 @@ import ClearIcon from '@mui/icons-material/Clear';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { DictionaryEntry } from '../types/DictionaryEntry';
 import { searchDictionary } from '../services/dictionaryService';
-import { useLanguage } from '../contexts/LanguageContext';
-
-const translations = {
-  gd: {
-    searchPlaceholder: 'Cuir a-steach facal...',
-    searchLabel: 'Lorg facal',
-    searching: "A' lorg...",
-    clearSearch: 'clear search',
-    noResults: 'Chan eil toradh ann',
-    searchDescription: 'Lorg ann an Gàidhlig, Gaeilge, Gàidhlig Mhanainn no Beurla.',
-    searchNote: "Thoir an àire ge-tà nach eil Gàidhlig Mhanainn air a' chuid as motha de dh'fhaclan.",
-    by: 'leis',
-    author: "a' Ghèidheal Ùr",
-    authorLink: 'https://angeidhealur.scot/',
-  },
-  ga: {
-    searchPlaceholder: 'Cuir isteach focal...',
-    searchLabel: 'Lorg focal',
-    searching: 'Ag lorg...',
-    clearSearch: 'clear search',
-    noResults: 'Níl toradh ann',
-    searchDescription: 'Lorg i nGaeilge, Gàidhlig, Gaeilge Mhanainn nó Béarla.',
-    searchNote: 'Tabhair faoi deara nach bhfuil Gaeilge Mhanainn ar an gcuid is mó de na focail.',
-    by: 'le',
-    author: 'an Gheal Úr',
-    authorLink: 'https://angeidhealur.scot/',
-  },
-};
 
 const SearchPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [results, setResults] = useState<DictionaryEntry[]>([]);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const { language } = useLanguage();
-  const t = translations[language];
 
   const handleSearch = async (query: string) => {
     if (query.length < 2) {
@@ -149,9 +119,9 @@ const SearchPage: React.FC = () => {
               textAlign: 'center',
             }}
           >
-            {t.by}{' '}
+            leis{' '}
             <Link
-              href={t.authorLink}
+              href="https://angeidhealur.scot/"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -169,7 +139,7 @@ const SearchPage: React.FC = () => {
                 },
               }}
             >
-              {t.author}
+              a' Ghèidheal Ùr
             </Link>
           </Typography>
         </Box>
@@ -184,11 +154,11 @@ const SearchPage: React.FC = () => {
         <TextField
           fullWidth
           variant="outlined"
-          placeholder={t.searchPlaceholder}
+          placeholder="Cuir a-steach facal..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           inputProps={{
-            'aria-label': t.searchLabel,
+            'aria-label': 'Lorg facal',
             'aria-expanded': searchQuery.length >= 2,
             'aria-controls': 'search-results-list',
             'aria-describedby': 'search-description',
@@ -215,12 +185,12 @@ const SearchPage: React.FC = () => {
             endAdornment: searchQuery && (
               <InputAdornment position="end">
                 {loading ? (
-                  <CircularProgress size={20} aria-label={t.searching} />
+                  <CircularProgress size={20} aria-label="A' lorg..." />
                 ) : (
                   <IconButton 
                     onClick={handleClear} 
                     edge="end" 
-                    aria-label={t.clearSearch}
+                    aria-label="clear search"
                     sx={{
                       '&:focus': {
                         outline: '2px solid currentColor',
@@ -246,9 +216,9 @@ const SearchPage: React.FC = () => {
             lineHeight: 1.6,
           }}
         >
-          {t.searchDescription}
+          Lorg ann an Gàidhlig, Gaeilge, Gàidhlig Mhanainn no Beurla.
           <br />
-          {t.searchNote}
+          Thoir an àire ge-tà nach eil Gàidhlig Mhanainn air a' chuid as motha de dh'fhaclan.
         </Typography>
       </Paper>
 
@@ -329,7 +299,7 @@ const SearchPage: React.FC = () => {
                   fontSize: { xs: '0.95rem', sm: '1rem' },
                 }}
               >
-                {t.noResults}
+                Chan eil toradh ann
               </Typography>
             )}
           </List>
