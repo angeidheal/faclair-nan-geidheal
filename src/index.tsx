@@ -16,7 +16,7 @@ root.render(
 // Register service worker for PWA
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/faclair-nan-geidheal/service-worker.js')
+    navigator.serviceWorker.register(`${process.env.PUBLIC_URL}/service-worker.js`)
       .then(registration => {
         console.log('ServiceWorker registration successful');
       })
