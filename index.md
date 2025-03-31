@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Lorg
 ---
 
 <div class="content-container">
