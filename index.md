@@ -13,5 +13,5 @@ title: Home
 </div>
 
 <div class="description">
-    <p>Search in Gàidhlig, Gaeilge, Gaelg or English. Not all entries have a Gaelg translation.</p>
+    <p>Search in Gàidhlig, Gaeilge, Gaelg or English.<br/>Not all entries have a Gaelg translation.</p>
 </div>
