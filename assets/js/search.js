@@ -27,8 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const normalizedQuery = normalizeText(query);
         const results = dictionary.filter(entry => 
-            normalizeText(entry.word).includes(normalizedQuery) ||
-            entry.translations.some(t => normalizeText(t.value).includes(normalizedQuery))
+            normalizeText(entry.gaidhlig).includes(normalizedQuery) ||
+            normalizeText(entry.gaeilge).includes(normalizedQuery) ||
+            normalizeText(entry.gaelg).includes(normalizedQuery) ||
+            normalizeText(entry.beurla).includes(normalizedQuery)
         );
 
         displayResults(results);
@@ -43,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchResults.innerHTML = results.map(entry => `
             <div class="dictionary-entry">
                 <div class="entry-header">
-                    <span class="word">${entry.word}</span>
+                    <span class="word">${entry.gaidhlig}</span>
                     <button class="toggle-button" aria-label="Toggle entry details">
                         <span class="toggle-icon">▶</span>
                     </button>
@@ -62,12 +64,24 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     ` : ''}
                     <div class="translations">
-                        ${entry.translations.map(t => `
+                        ${entry.gaeilge ? `
                             <div class="translation">
-                                <span class="translation-label">${window.siteContent.translations[t.language]}</span>
-                                <span class="translation-value">${t.value}</span>
+                                <span class="translation-label">${window.siteContent.translations.gaeilge}</span>
+                                <span class="translation-value">${entry.gaeilge}</span>
                             </div>
-                        `).join('')}
+                        ` : ''}
+                        ${entry.gaelg ? `
+                            <div class="translation">
+                                <span class="translation-label">${window.siteContent.translations.gaelg}</span>
+                                <span class="translation-value">${entry.gaelg}</span>
+                            </div>
+                        ` : ''}
+                        ${entry.beurla ? `
+                            <div class="translation">
+                                <span class="translation-label">${window.siteContent.translations.beurla}</span>
+                                <span class="translation-value">${entry.beurla}</span>
+                            </div>
+                        ` : ''}
                     </div>
                 </div>
             </div>
