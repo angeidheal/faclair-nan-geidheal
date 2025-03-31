@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
-    const searchDescription = document.getElementById('search-description');
-    const searchNote = document.getElementById('search-note');
     let dictionary = [];
 
     fetch('/assets/data/dictionary.json')
@@ -44,17 +42,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
         searchResults.innerHTML = results.map(entry => `
             <div class="dictionary-entry">
-                <h3>${entry.word}</h3>
-                <div class="translations">
-                    ${entry.translations.map(t => `
-                        <div class="translation">
-                            <span class="translation-label">${window.siteContent.translations[t.language]}:</span>
-                            <span class="translation-value">${t.value}</span>
-                        </div>
-                    `).join('')}
+                <div class="entry-header">
+                    <span class="word">${entry.word}</span>
+                    <button class="toggle-button" aria-label="Toggle entry details">
+                        <span class="toggle-icon">▶</span>
+                    </button>
                 </div>
-                ${entry.grammar ? `<div class="grammar">${window.siteContent.translations.grammar}: ${entry.grammar}</div>` : ''}
-                ${entry.definition ? `<div class="definition">${window.siteContent.translations.definition}: ${entry.definition}</div>` : ''}
+                <div class="entry-content collapsed">
+                    ${entry.grammar ? `
+                        <div class="grammar">
+                            <span class="translation-label">${window.siteContent.translations.grammar}</span>
+                            <span class="translation-value">${entry.grammar}</span>
+                        </div>
+                    ` : ''}
+                    ${entry.definition ? `
+                        <div class="definition">
+                            <span class="translation-label">${window.siteContent.translations.definition}</span>
+                            <span class="translation-value">${entry.definition}</span>
+                        </div>
+                    ` : ''}
+                    <div class="translations">
+                        ${entry.translations.map(t => `
+                            <div class="translation">
+                                <span class="translation-label">${window.siteContent.translations[t.language]}</span>
+                                <span class="translation-value">${t.value}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
             </div>
         `).join('');
 
