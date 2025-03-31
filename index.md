@@ -3,9 +3,15 @@ layout: default
 title: Home
 ---
 
-<div class="search-container">
-    <input type="text" id="search-input" placeholder="{{ site.content.search.placeholder }}" autocomplete="off">
-    <div id="search-results"></div>
-    <p id="search-description">{{ site.content.search.description }}</p>
-    <p id="search-note">{{ site.content.search.note }}</p>
+<div class="content-container">
+    <div class="search-container">
+        <div class="search-input-wrapper">
+            <input type="text" id="search-input" placeholder="{{ site.content.search.placeholder }}" class="search-input">
+        </div>
+        <div id="search-results" class="search-results"></div>
+    </div>
+</div>
+
+<div class="description">
+    <p>{{ site.content.search.description }}<br/>{{ site.content.search.note }}</p>
 </div>
