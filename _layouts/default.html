@@ -13,9 +13,17 @@
 <body>
     <header>
         <nav class="nav-menu">
-            <a href="/" class="nav-button">Home</a>
-            <a href="/about" class="nav-button">About</a>
-            <a href="/browse" class="nav-button">Browse</a>
+            <a href="/" class="nav-button">Dachaigh</a>
+            <a href="/brabhsaich" class="nav-button">Brabhsaich</a>
+            <a href="/Mu dheidhinn" class="nav-button">Mu dheidhinn</a>
+            {% assign current_lang = site.language %}
+    {% for lang in site.languages %}
+        {% if lang[0] != current_lang %}
+            <a href="https://{{ lang[1].domain }}" class="nav-button">
+                {{ lang[1].name }}
+            </a>
+        {% endif %}
+    {% endfor %}
             {% include language-switcher.html %}
             <button class="theme-toggle" aria-label="Toggle theme">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
