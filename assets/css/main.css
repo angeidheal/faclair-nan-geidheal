@@ -1,0 +1,437 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #ffffff;
+    --text-color: #333333;
+    --border-color: #e0e0e0;
+    --hover-color: #2980b9;
+    --link-color: #3498db;
+    --link-hover-color: #2980b9;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
+    --warning-color: #f1c40f;
+    --info-color: #3498db;
+    --muted-color: #7f8c8d;
+    --light-gray: #f5f6fa;
+    --dark-gray: #2c3e50;
+    --white: #ffffff;
+    --black: #000000;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --transition-speed: 0.3s;
+    --search-border: #5f6368;
+    --search-hover: #303134;
+    --result-border: #5f6368;
+    --result-hover: #303134;
+    --secondary-text: #9aa0a6;
+}
+
+:root[data-theme="light"] {
+    --primary-color: #1a73e8;
+    --text-color: #202124;
+    --background-color: #ffffff;
+    --search-border: #dfe1e5;
+    --search-hover: #f8f9fa;
+    --result-border: #dadce0;
+    --result-hover: #f8f9fa;
+    --secondary-text: #5f6368;
+}
+
+[data-theme="dark"] {
+    --primary-color: #ecf0f1;
+    --secondary-color: #3498db;
+    --background-color: #1a1a1a;
+    --text-color: #ecf0f1;
+    --border-color: #2c3e50;
+    --hover-color: #2980b9;
+    --link-color: #3498db;
+    --link-hover-color: #2980b9;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
+    --warning-color: #f1c40f;
+    --info-color: #3498db;
+    --muted-color: #95a5a6;
+    --light-gray: #2c3e50;
+    --dark-gray: #ecf0f1;
+    --white: #1a1a1a;
+    --black: #ecf0f1;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+    min-height: 100vh;
+    padding-top: 4rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--background-color);
+}
+
+.logo-link {
+    text-decoration: none;
+    color: var(--text-color);
+    display: inline-block;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 700;
+    color: var(--text-color);
+    font-family: 'Lemonada', cursive;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    margin: 0.5rem 0 0;
+    color: var(--secondary-text);
+    font-family: 'Lemonada', cursive;
+    font-weight: 500;
+}
+
+.subtitle a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color var(--transition-speed) ease;
+}
+
+.subtitle a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.search-container {
+    max-width: 584px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.search-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--search-border);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    background-color: var(--background-color);
+    width: 100%;
+    max-width: 584px;
+    margin: 0 auto;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: var(--secondary-text);
+}
+
+.clear-button {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-button svg {
+    fill: var(--secondary-text);
+    width: 20px;
+    height: 20px;
+}
+
+.clear-button:hover svg {
+    fill: var(--text-color);
+}
+
+.search-results {
+    width: 100%;
+    max-width: 584px;
+    margin: 1rem auto 0;
+    padding: 0;
+}
+
+.dictionary-entry {
+    width: 100%;
+    background: var(--background-color);
+    border: 1px solid var(--result-border);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+}
+
+.dictionary-entry:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.word {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.translations {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.translation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.translation-label {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--secondary-text);
+}
+
+.translation-value {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.grammar,
+.definition {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--brand-color);
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+.toggle-button:hover {
+    color: var(--brand-color-dark);
+}
+
+.entry-content {
+    margin-top: 1rem;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+}
+
+.entry-content.collapsed {
+    max-height: 0;
+    margin-top: 0;
+}
+
+.description {
+    text-align: center;
+    max-width: 584px;
+    margin: 2rem auto;
+    color: var(--secondary-text);
+}
+
+.description .note {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--background-color);
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.nav-button:hover {
+    background-color: var(--search-hover);
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.content-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.content-container p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.content-container ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.content-container li {
+    margin-bottom: 0.5rem;
+}
+
+.browse-results {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.browse-results .word {
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+    font-family: 'Lemonada', cursive;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.theme-toggle:hover {
+    background-color: var(--search-hover);
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .search-container,
+    .content-container {
+        padding: 0 0.5rem;
+    }
+
+    .translations {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        padding: 0.5rem;
+    }
+    
+    .nav-menu {
+        gap: 0.5rem;
+    }
+    
+    .nav-button {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .content-container h2 {
+        font-size: 1.75rem;
+    }
+
+    .browse-results .dictionary-entry {
+        padding: 1rem;
+    }
+    
+    .browse-results .word {
+        font-size: 1.25rem;
+    }
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color var(--transition-speed) ease;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.language-switcher .nav-button {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+} 

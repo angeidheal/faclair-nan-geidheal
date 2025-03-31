@@ -1,0 +1,1474 @@
+[
+  {
+    "gaidhlig": "Achd Aithneachadh Gnè (2004)",
+    "gaeilge": "An tAcht um Inscne a Aithint (2004)",
+    "gaelg": "Slattys Goaill Rish Keintys (2004)",
+    "beurla": "Gender Recognition Act (2004)",
+    "grammar": "boir. gin. Achd Aithneachaidh Gnè",
+    "definition": "Achd Pàrlamaid na Rìoghachd Aonaichte a tha a' toirt cothrom do dhaoine tar-ghnèitheach aithneachadh laghail fhaighinn air an gnè aca."
+  },
+  {
+    "gaidhlig": "Achd nan Eucoirean Feise Eachdraidheil (Mathanas agus Dearmadan) (Alba) 2018",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "Historical Sexual Offences (Pardons and Disregards) (Scotland) Act 2018",
+    "grammar": "boir. gin. Achd nan Eucoirean Feise Eachdraidheil",
+    "definition": "Achd Pàrlamaid na h-Alba a tha a' toirt mathanas do dhaoine a chaidh a dhìteadh airson a bhith ri feise le daoine dhen aon ghnè nuair a bha e mì-laghail."
+  },
+  {
+    "gaidhlig": "aintighearnas institiuideach",
+    "gaeilge": "leatrom institiúideach",
+    "gaelg": "tranlaase institiuidagh",
+    "beurla": "institutional oppression",
+    "grammar": "fir. gin. aintighearnas institiuidich",
+    "definition": "Leth-bhreith an aghaidh daoine LGDT+ ann an institiuidan mar sgoiltean, ospadalan, prìosanan is msaa."
+  },
+  {
+    "gaidhlig": "ait",
+    "gaeilge": "aiteach",
+    "gaelg": "quaagh",
+    "beurla": "queer",
+    "grammar": "bua. coi. aite",
+    "definition": "Facal a thathar a' cleachdadh mar fhacal maslaichte airson daoine LGDT+, ach a tha cuid de dhaoine LGDT+ air ath-ghlacadh mar fhacal deimhinneach."
+  },
+  {
+    "gaidhlig": "aithneachadh gnè",
+    "gaeilge": "aitheantas inscne",
+    "gaelg": "goaill-rish kynney",
+    "beurla": "gender recognition",
+    "grammar": "fir. gin. aithneachaidh gnè",
+    "definition": "Nuair a tha cuideigin no buidheann ag aithneachadh gu h-oifigeil gnè cuideigin."
+  },
+  {
+    "gaidhlig": "an dèidh obrach-lannsa",
+    "gaeilge": "iar-obráid",
+    "gaelg": "eear-obraid",
+    "beurla": "post-op",
+    "grammar": "gnàthas",
+    "definition": "Neach tar-ghnèitheach a tha air obair-lannsa daingneachadh gnè fhaighinn."
+  },
+  {
+    "gaidhlig": "androigineach",
+    "gaeilge": "andraigineach",
+    "gaelg": "androgynagh",
+    "beurla": "androgynous",
+    "grammar": "bua. coi. -ich",
+    "definition": "Neach aig a bheil feartan gnè measgaichte no a tha a' nochdadh gnè ann an dòigh mheasgaichte."
+  },
+  {
+    "gaidhlig": "annas dhen dà-sheòrsachd",
+    "gaeilge": "dá-fhiosrach",
+    "gaelg": "",
+    "beurla": "bicurious",
+    "grammar": "fir. gin. annais dhen dà-sheòrsachd",
+    "definition": "Nuair a tha cuideigin a' faireachdainn tàladh romansach no feiseil air daoine de ghnè sam bith."
+  },
+  {
+    "gaidhlig": "anti-corp",
+    "gaeilge": "antasubstaint",
+    "gaelg": "noi-chorpeen",
+    "beurla": "antibody",
+    "grammar": "fir. gin. anti-cuirp, iol. anti-cuirp",
+    "definition": "Pròtain san fhuil a tha a' dìon a' bhodhaig an aghaidh galaran."
+  },
+  {
+    "gaidhlig": "aon-ghnèitheach",
+    "gaeilge": "comhinscneach",
+    "gaelg": "un-kynnagh",
+    "beurla": "same-gender",
+    "grammar": "bua. coi. -ich",
+    "definition": "A' buntainn ri daoine dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "aon-sheòrsach",
+    "gaeilge": "comhghnéis",
+    "gaelg": "",
+    "beurla": "same-sex",
+    "grammar": "bua. coi. -aiche",
+    "definition": "A' buntainn ri daoine dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "ath-bhuileachadh gnè",
+    "gaeilge": "aistriú inscne",
+    "gaelg": "",
+    "beurla": "gender reassignment",
+    "grammar": "fir. gin. ath-bhuileachaidh gnè",
+    "definition": "Obair-lannsa a tha a' toirt air a' bhodhaig a bhith nas fhaisge air coltas na gnè a tha cuideigin ag iarraidh."
+  },
+  {
+    "gaidhlig": "bana-ghèidh",
+    "gaeilge": "bean aerach",
+    "gaelg": "ben aeragh",
+    "beurla": "a gay woman / lesbian",
+    "grammar": "boir. gin. bana-ghèidh, iol. bana-ghèidhean",
+    "definition": "Boireannach aig a bheil tàladh romansach no feiseil air boireannaich eile."
+  },
+  {
+    "gaidhlig": "bànrigh draga",
+    "gaeilge": "banríon draig",
+    "gaelg": "ben-rein drag",
+    "beurla": "drag queen",
+    "grammar": "boir. gin. bànrigh draga, iol. bànrighrean draga",
+    "definition": "Fireannach a tha a' cur air aodach boireannach mar phàirt de thaisbeanadh ealain."
+  },
+  {
+    "gaidhlig": "Bile Ath-leasachadh Aithneachadh Gnè (Alba)",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "Gender Recognition Reform (Scotland) Bill",
+    "grammar": "fir. gin. Bile Ath-leasachaidh Aithneachadh Gnè",
+    "definition": "Bile a chaidh a chur air beulaibh Pàrlamaid na h-Alba ann an 2022 gus an Achd Aithneachadh Gnè (2004) atharrachadh."
+  },
+  {
+    "gaidhlig": "bìnearachd gnè",
+    "gaeilge": "dénárthacht inscne",
+    "gaelg": "",
+    "beurla": "gender binary",
+    "grammar": "boir. gin. bìnearachd gnè",
+    "definition": "An smuain gu bheil dà ghnè ann a-mhàin – fireann agus boireann."
+  },
+  {
+    "gaidhlig": "Bìoras Easbhaidh Ion-dhìon Daonna",
+    "gaeilge": "Víreas Easpa Imdhíonachta Daonna",
+    "gaelg": "veerys genney jeenaght sheelnaue",
+    "beurla": "Human Immunodeficiency Virus (HIV)",
+    "grammar": "fir. gin. Bìorais Easbhaidh Ion-dhìon Daonna",
+    "definition": "Bìoras a tha a' lagachadh siostam dìon-slàinte na bodhaige."
+  },
+  {
+    "gaidhlig": "boireann gu fireann",
+    "gaeilge": "baineann go fireann",
+    "gaelg": "bwoirryn gys firryn",
+    "beurla": "female to male (FTM)",
+    "grammar": "gnàthas",
+    "definition": "Neach tar-ghnèitheach a rugadh boireann ach a tha a-nis a' fuireach mar fhireannach."
+  },
+  {
+    "gaidhlig": "boireann-sealltainn",
+    "gaeilge": "léiriú baineann",
+    "gaelg": "",
+    "beurla": "feminine-presenting",
+    "grammar": "bua.",
+    "definition": "Neach a tha a' nochdadh feartan gnè boireannach."
+  },
+  {
+    "gaidhlig": "boireannaich a bhios ri feise le boireannaich",
+    "gaeilge": "mná a mbíonn gnéas acu le mná",
+    "gaelg": "",
+    "beurla": "women who have sex with women",
+    "grammar": "iol.",
+    "definition": "Boireannaich aig a bheil feise le boireannaich eile."
+  },
+  {
+    "gaidhlig": "brodag",
+    "gaeilge": "hormón",
+    "gaelg": "broddag",
+    "beurla": "hormone",
+    "grammar": "boir. gin. brodaig, iol. brodagan",
+    "definition": "Stuth ceimigeach a tha a' toirt air a' bhodhaig atharrachadh."
+  },
+  {
+    "gaidhlig": "brodag-gnè",
+    "gaeilge": "gnéas-hormón",
+    "gaelg": "",
+    "beurla": "sex hormone",
+    "grammar": "boir. gin. brodaig-ghnè, iol. brodagan-gnè",
+    "definition": "Hòrmon a tha a' toirt buaidh air feartan gnè."
+  },
+  {
+    "gaidhlig": "brodag nan clach",
+    "gaeilge": "téististéarón",
+    "gaelg": "",
+    "beurla": "testosterone",
+    "grammar": "boir. gin. brodaig nan clach, iol. brodagan nan clach",
+    "definition": "Hòrmon fireannach a tha air a dhèanamh sna clachan."
+  },
+  {
+    "gaidhlig": "buill-ghineamhainn",
+    "gaeilge": "baill ghiniúna",
+    "gaelg": "comyssyn",
+    "beurla": "genitals",
+    "grammar": "iol.",
+    "definition": "Pàirtean dhen bhodhaig a tha an sàs ann an gineamhainn."
+  },
+  {
+    "gaidhlig": "caidreabhach",
+    "gaeilge": "comhghuaillí",
+    "gaelg": "cumraag",
+    "beurla": "ally",
+    "grammar": "fir. gin. caidreabhaich, iol. caidreabhaich",
+    "definition": "Neach a tha ann an dàimh le cuideigin eile."
+  },
+  {
+    "gaidhlig": "caismeachd pròise",
+    "gaeilge": "paráid bhròid",
+    "gaelg": "",
+    "beurla": "pride march",
+    "grammar": "boir. gin. caismeachd pròise, iol. caismeachdan pròise",
+    "definition": "Tachartas far a bheil daoine LGDT+ agus an luchd-taice a' coiseachd còmhla airson còirichean co-ionann a chomharrachadh."
+  },
+  {
+    "gaidhlig": "càraid aon-sheòrsach",
+    "gaeilge": "lánúin chomhghnéis",
+    "gaelg": "",
+    "beurla": "same-sex couple",
+    "grammar": "fir. gin. càraid aon-sheòrsaich, iol. càraidean aon-sheòrsach",
+    "definition": "Dithis dhen aon ghnè a tha ann an dàimh le chèile."
+  },
+  {
+    "gaidhlig": "casg-inbheachd",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "puberty blocker",
+    "grammar": "fir. gin. casg-inbheachd",
+    "definition": "Cungaidh-leighis a tha a' cur stad air atharrachaidhean bodhaige a thig le inbheachd."
+  },
+  {
+    "gaidhlig": "ceasnachadh",
+    "gaeilge": "ceistiú",
+    "gaelg": "keishtey",
+    "beurla": "questioning",
+    "grammar": "fir. gin. ceasnachaidh",
+    "definition": "A' faighneachd cheistean mu do ghnè no do thaobhadh feise."
+  },
+  {
+    "gaidhlig": "cèile dhen aon-ghnè",
+    "gaeilge": "céile comhinscneach",
+    "gaelg": "",
+    "beurla": "same-sex partner",
+    "grammar": "fir./boir. gin. cèile dhen aon-ghnè, iol. cèilean dhen aon-ghnè",
+    "definition": "Neach a tha pòsta ri cuideigin dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "cios-ghnèitheach",
+    "gaeilge": "cis-inscneach",
+    "gaelg": "cis-kynnagh",
+    "beurla": "cisgender",
+    "grammar": "bua. coi. -ich",
+    "definition": "Neach a tha a' faireachdainn gu bheil an gnè aca co-ionann ris an gnè a chaidh a bhuileachadh orra nuair a rugadh iad."
+  },
+  {
+    "gaidhlig": "cios-ghnèitheachas",
+    "gaeilge": "cis-inscneachas",
+    "gaelg": "cis-kynnidys",
+    "beurla": "cissexism",
+    "grammar": "fir. gin. cios-ghnèitheachais",
+    "definition": "An smuain gu bheil e nàdarra a bhith cios-ghnèitheach agus mì-nàdarra a bhith tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "cios-nòrmadachd",
+    "gaeilge": "cis-ghnáthach",
+    "gaelg": "",
+    "beurla": "cisnormativity",
+    "grammar": "boir. gin. cios-nòrmadachd",
+    "definition": "An smuain gu bheil e àbhaisteach a bhith cios-ghnèitheach agus neo-àbhaisteach a bhith tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "co-ghnèitheach",
+    "gaeilge": "comhinscneach",
+    "gaelg": "co-kynnagh",
+    "beurla": "same-gender",
+    "grammar": "bua. coi. -ich",
+    "definition": "A' buntainn ri daoine dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "co-ionannachd gnè",
+    "gaeilge": "comhionannas inscne",
+    "gaelg": "corrymid kynnagh",
+    "beurla": "gender equality",
+    "grammar": "boir. gin. co-ionannachd gnè",
+    "definition": "Nuair a tha daoine de gach gnè a' faighinn an aon chothrom."
+  },
+  {
+    "gaidhlig": "co-ionannachd pòsaidh",
+    "gaeilge": "comhionannas pósta",
+    "gaelg": "corrymid poosee",
+    "beurla": "marriage equality",
+    "grammar": "boir. gin. co-ionannachd pòsaidh",
+    "definition": "Nuair a tha daoine dhen aon ghnè a' faighinn cead pòsaidh."
+  },
+  {
+    "gaidhlig": "co-sheòrsach",
+    "gaeilge": "homaighnéasach",
+    "gaelg": "homocheintagh",
+    "beurla": "homosexual",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig a bheil tàladh romansach no feiseil air daoine dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "co-sheòrsachd",
+    "gaeilge": "homaighnéasacht",
+    "gaelg": "homocheintys",
+    "beurla": "homosexuality",
+    "grammar": "boir. gin. co-sheòrsachd",
+    "definition": "A' faireachdainn tàladh romansach no feiseil air daoine dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "còirichean co-ionann",
+    "gaeilge": "comhchearta / cearta comhionanna",
+    "gaelg": "kiartyn cochorrym",
+    "beurla": "equal rights",
+    "grammar": "iol.",
+    "definition": "Nuair a tha daoine a' faighinn an aon chòirichean."
+  },
+  {
+    "gaidhlig": "còirichean gèidhe agus leasbach",
+    "gaeilge": "cearta aeracha agus leispiacha",
+    "gaelg": "",
+    "beurla": "gay and lesbian rights",
+    "grammar": "iol.",
+    "definition": "Còirichean daonna airson daoine LGDT+."
+  },
+  {
+    "gaidhlig": "cròmasom",
+    "gaeilge": "crómasóm",
+    "gaelg": "kroymasoom",
+    "beurla": "chromosome",
+    "grammar": "fir. gin. cròmasaim, iol. cròmasoman",
+    "definition": "Structar DNA a tha a' giùlan fiosrachadh ginteil."
+  },
+  {
+    "gaidhlig": "cuèir",
+    "gaeilge": "aiteach",
+    "gaelg": "quaagh",
+    "beurla": "queer",
+    "grammar": "bua.",
+    "definition": "Facal-sgàile airson daoine LGDT+ a chaidh ath-ghlacadh mar fhacal deimhinneach."
+  },
+  {
+    "gaidhlig": "cuèir-ghnèitheach",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "genderqueer",
+    "grammar": "bua. coi. -ich",
+    "definition": "Neach aig a bheil dearbh-aithne gnè neo-bhìnearaidh."
+  },
+  {
+    "gaidhlig": "cùisean co-cheangailte ri gnè",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "gender issues",
+    "grammar": "iol.",
+    "definition": "Rudan a tha a' buntainn ri gnè."
+  },
+  {
+    "gaidhlig": "dà-ghnèitheach",
+    "gaeilge": "dé-inscneach",
+    "gaelg": "daa-kynnagh",
+    "beurla": "bigender",
+    "grammar": "bua. coi. -ich",
+    "definition": "Neach aig a bheil feartan gnè fireann agus boireann."
+  },
+  {
+    "gaidhlig": "dà-sheòrsach",
+    "gaeilge": "déghnéasach",
+    "gaelg": "daa-cheintyssagh",
+    "beurla": "bisexual",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig a bheil tàladh romansach no feiseil air daoine de ghnè sam bith."
+  },
+  {
+    "gaidhlig": "dà-spioradach",
+    "gaeilge": "dé-anamúil",
+    "gaelg": "daa-spyrrydagh",
+    "beurla": "two-spirit",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach ann an cuid de chultaran dùthchasach Ameireagaidh a Tuath aig a bheil spiorad fireann agus boireann."
+  },
+  {
+    "gaidhlig": "dearbh-aithne gnè",
+    "gaeilge": "féiniúlacht inscne",
+    "gaelg": "enney kynney",
+    "beurla": "gender identity",
+    "grammar": "boir. gin. dearbh-aithne gnè",
+    "definition": "Mar a tha cuideigin a' faireachdainn mu dheidhinn an gnè aca."
+  },
+  {
+    "gaidhlig": "dì-eadar-ghluasad",
+    "gaeilge": "díthrasdul",
+    "gaelg": "",
+    "beurla": "detransition",
+    "grammar": "fir. gin. dì-eadar-ghluasaid",
+    "definition": "Nuair a tha cuideigin a' tilleadh air ais dhan ghnè a bh' aca roimhe."
+  },
+  {
+    "gaidhlig": "draga",
+    "gaeilge": "draig",
+    "gaelg": "drag",
+    "beurla": "drag",
+    "grammar": "fir. gin. draga",
+    "definition": "A' cur air aodach gnè eile mar phàirt de thaisbeanadh ealain."
+  },
+  {
+    "gaidhlig": "eadar-ghluasad",
+    "gaeilge": "trasdul",
+    "gaelg": "",
+    "beurla": "transition",
+    "grammar": "fir. gin. eadar-ghluasaid, iol. eadar-ghluasadan",
+    "definition": "Nuair a tha cuideigin a' gluasad bho aon ghnè gu gnè eile."
+  },
+  {
+    "gaidhlig": "eadar-ghluasad laghail",
+    "gaeilge": "trasdul dhlíthiúil",
+    "gaelg": "",
+    "beurla": "legal transition",
+    "grammar": "fir. gin. eadar-ghluasaid laghail",
+    "definition": "Nuair a tha cuideigin a' faighinn aithneachadh laghail air an gnè ùr aca."
+  },
+  {
+    "gaidhlig": "eadar-ghluasad meadaigeach",
+    "gaeilge": "trasdul leighis",
+    "gaelg": "",
+    "beurla": "medical transition",
+    "grammar": "fir. gin. eadar-ghluasaid mheadaigich",
+    "definition": "Nuair a tha cuideigin a' cleachdadh leigheas meadaigeach gus an coltas aca atharrachadh."
+  },
+  {
+    "gaidhlig": "eadar-ghluasad sòisealta",
+    "gaeilge": "trasdul shóisialta",
+    "gaelg": "",
+    "beurla": "social transition",
+    "grammar": "fir. gin. eadar-ghluasaid shòisealta",
+    "definition": "Nuair a tha cuideigin a' tòiseachadh a' fuireach mar ghnè eile."
+  },
+  {
+    "gaidhlig": "eadar-ghnèitheach",
+    "gaeilge": "idir-inscneach",
+    "gaelg": "",
+    "beurla": "intergender",
+    "grammar": "bua. coi. -ich",
+    "definition": "Neach a rugadh le feartan gnè measgaichte."
+  },
+  {
+    "gaidhlig": "eadar-sheòrsach",
+    "gaeilge": "idirghnéasach",
+    "gaelg": "",
+    "beurla": "bisexual",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig a bheil tàladh romansach no feiseil air daoine de ghnè sam bith."
+  },
+  {
+    "gaidhlig": "earotaigeachd cho-sheòrsach",
+    "gaeilge": "homa-earótachas",
+    "gaelg": "",
+    "beurla": "homoeroticism",
+    "grammar": "boir. gin. earotaigeachd cho-sheòrsaich",
+    "definition": "Tàladh feiseil air daoine dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "eastraigin",
+    "gaeilge": "éastraigin",
+    "gaelg": "",
+    "beurla": "estrogen",
+    "grammar": "boir. gin. eastraigin",
+    "definition": "Hòrmon boireannach a tha air a dhèanamh sna magairean."
+  },
+  {
+    "gaidhlig": "eile-sheòrsach",
+    "gaeilge": "heitrighnéasach",
+    "gaelg": "hetracheintyssagh",
+    "beurla": "heterosexual",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig a bheil tàladh romansach no feiseil air daoine de ghnè eile."
+  },
+  {
+    "gaidhlig": "far-ghnèitheach",
+    "gaeilge": "inscne-aiteach",
+    "gaelg": "",
+    "beurla": "transgender",
+    "grammar": "bua. coi. -ich",
+    "definition": "Neach aig a bheil dearbh-aithne gnè a tha eadar-dhealaichte bhon ghnè a chaidh a bhuileachadh orra nuair a rugadh iad."
+  },
+  {
+    "gaidhlig": "fear foidhe",
+    "gaeilge": "bunadóir / bunpháirtí",
+    "gaelg": "",
+    "beurla": "bottom",
+    "grammar": "fir. gin. fir foidhe, iol. fir foidhe",
+    "definition": "Fireannach a tha a' gabhail pàirt èigneachail ann am feise."
+  },
+  {
+    "gaidhlig": "fear-gèidh",
+    "gaeilge": "fear aerach",
+    "gaelg": "fer aeragh",
+    "beurla": "gay man",
+    "grammar": "fir. gin. fir-ghèidh, iol. fir-ghèidh",
+    "definition": "Fireannach aig a bheil tàladh romansach no feiseil air fireannaich eile."
+  },
+  {
+    "gaidhlig": "fear os a chionn",
+    "gaeilge": "barradóir / barrpháirtí",
+    "gaelg": "",
+    "beurla": "top",
+    "grammar": "fir. gin. fir os a chionn, iol. fir os an cionn",
+    "definition": "Fireannach a tha a' gabhail pàirt ghnìomhach ann am feise."
+  },
+  {
+    "gaidhlig": "feartan-gnè",
+    "gaeilge": "tréithe gnéis",
+    "gaelg": "",
+    "beurla": "gender characteristics",
+    "grammar": "iol.",
+    "definition": "Coltas agus giùlan a tha daoine a' ceangal ri gnè sònraichte."
+  },
+  {
+    "gaidhlig": "féin-riaghladh na bodhaige",
+    "gaeilge": "féinriail coirp",
+    "gaelg": "",
+    "beurla": "bodily autonomy",
+    "grammar": "fir. gin. féin-riaghlaidh na bodhaige",
+    "definition": "An còir a th' aig daoine air co-dhùnaidhean a dhèanamh mu na bodhaigean aca fhèin."
+  },
+  {
+    "gaidhlig": "féis-pròise",
+    "gaeilge": "féile bhròid",
+    "gaelg": "",
+    "beurla": "pride festival",
+    "grammar": "boir. gin. féise-pròise, iol. féisean-pròise",
+    "definition": "Tachartas far a bheil daoine LGDT+ agus an luchd-taice a' tighinn còmhla airson còirichean co-ionann a chomharrachadh."
+  },
+  {
+    "gaidhlig": "feisealachd",
+    "gaeilge": "gnéasacht",
+    "gaelg": "colleaght",
+    "beurla": "sexuality",
+    "grammar": "boir. gin. feisealachd",
+    "definition": "Tàladh feiseil air daoine eile."
+  },
+  {
+    "gaidhlig": "fireann gu boireann",
+    "gaeilge": "fireann go baineann",
+    "gaelg": "firryn gys bwoirryn",
+    "beurla": "male to female (MTF)",
+    "grammar": "gnàthas",
+    "definition": "Neach tar-ghnèitheach a rugadh fireann ach a tha a-nis a' fuireach mar bhoireannach."
+  },
+  {
+    "gaidhlig": "fireann-sealltainn",
+    "gaeilge": "léiriú fireann",
+    "gaelg": "",
+    "beurla": "masculine-presenting",
+    "grammar": "bua.",
+    "definition": "Neach a tha a' nochdadh feartan gnè fireannach."
+  },
+  {
+    "gaidhlig": "fireannaich a bhios ri feise le fireannaich",
+    "gaeilge": "fir a mbíonn gnéas acu le fir",
+    "gaelg": "",
+    "beurla": "men who have sex with men",
+    "grammar": "iol.",
+    "definition": "Fireannaich aig a bheil feise le fireannaich eile."
+  },
+  {
+    "gaidhlig": "FRATT (Feimineach Radaigeach Tar-thoirmeasgach)",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "TERF (Trans-Exclusionary Radical Feminist)",
+    "grammar": "giorr.",
+    "definition": "Feimineach Radaigeach Tar-thoirmeasgach"
+  },
+  {
+    "gaidhlig": "gèidh",
+    "gaeilge": "aerach",
+    "gaelg": "aeragh",
+    "beurla": "gay",
+    "grammar": "bua.",
+    "definition": "Neach aig a bheil tàladh romansach no feiseil air daoine dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "Gèidheal",
+    "gaeilge": "Gaylgeoir / Gaeilgeoir aerach",
+    "gaelg": "Gaylgeyr / Gaelgeyr aeragh",
+    "beurla": "a gay Gael",
+    "grammar": "fir. gin. Gèidheil, iol. Gèidheil",
+    "definition": "Neach LGDT+ a tha na Ghàidheal."
+  },
+  {
+    "gaidhlig": "gnè",
+    "gaeilge": "inscne",
+    "gaelg": "kynney",
+    "beurla": "gender",
+    "grammar": "boir. gin. gnè, iol. gnèithean",
+    "definition": "Dearbh-aithne pearsanta mar fhireannach, boireannach, no eile."
+  },
+  {
+    "gaidhlig": "gnè-chriotaigeach",
+    "gaeilge": "",
+    "gaelg": " ",
+    "beurla": "gender-critical",
+    "grammar": "bua.",
+    "definition": "A' buntainn ri gnè a tha fo sgrùdadh breithneachail."
+  },
+  {
+    "gaidhlig": "gnè-nòrmadach",
+    "gaeilge": "gnáthach ó thaobh na hinscne de",
+    "gaelg": "",
+    "beurla": "gender-normative",
+    "grammar": "bua.",
+    "definition": "A' buntainn ri gnè a tha a' leantainn nòrman sòisealta."
+  },
+  {
+    "gaidhlig": "gnè-nòrmadachd",
+    "gaeilge": "normatacht inscne",
+    "gaelg": "",
+    "beurla": "gender-normativity",
+    "grammar": "boir. gin. gnè-nòrmadachd",
+    "definition": "An smuain gu bheil e àbhaisteach a bhith a' leantainn nòrman sòisealta a thaobh gnè."
+  },
+  {
+    "gaidhlig": "gnè-shùbailte",
+    "gaeilge": "inscne-sholúbtha",
+    "gaelg": "",
+    "beurla": "gender-fluid",
+    "grammar": "bua.",
+    "definition": "A' buntainn ri gnè a dh'fhaodas atharrachadh thar ùine."
+  },
+  {
+    "gaidhlig": "gnè-shuidhichte",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "assigned gender",
+    "grammar": "boir. gin. gnè-shuidhichte",
+    "definition": "An gnè a chaidh a bhuileachadh air neach nuair a rugadh iad."
+  },
+  {
+    "gaidhlig": "gnèitheachas eile-sheòrsach",
+    "gaeilge": "heitrighnéasachas",
+    "gaelg": "",
+    "beurla": "heterosexism",
+    "grammar": "fir. gin. gnèitheachais eile-sheòrsaich",
+    "definition": "An smuain gu bheil e nàdarra a bhith eile-sheòrsach agus mì-nàdarra a bhith co-sheòrsach."
+  },
+  {
+    "gaidhlig": "gònad",
+    "gaeilge": "gónad",
+    "gaelg": "gonad",
+    "beurla": "gonad",
+    "grammar": "boir. gin. gònaid, iol. gònadan",
+    "definition": "Organ a tha a' dèanamh gametean agus hòrmonan gnè."
+  },
+  {
+    "gaidhlig": "gràin co-sheòrsachd",
+    "gaeilge": "homafóibe",
+    "gaelg": "",
+    "beurla": "homophobia",
+    "grammar": "boir. gin. gràin co-sheòrsachd",
+    "definition": "Claon-bhreith an aghaidh dhaoine co-sheòrsach."
+  },
+  {
+    "gaidhlig": "gràin dà-sheòrsachd",
+    "gaeilge": "défhóibe",
+    "gaelg": "",
+    "beurla": "biphobia",
+    "grammar": "boir. gin. gràin dà-sheòrsachd",
+    "definition": "Claon-bhreith an aghaidh dhaoine dà-sheòrsach."
+  },
+  {
+    "gaidhlig": "gun obair-lannsa",
+    "gaeilge": "gan obráid",
+    "gaelg": "gyn obraid",
+    "beurla": "non-op",
+    "grammar": "gnàthas",
+    "definition": "Neach tar-ghnèitheach nach eil air obair-lannsa daingneachadh gnè fhaighinn."
+  },
+  {
+    "gaidhlig": "iol-ghnèitheach",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "heterogender",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "iol-sheòrsach",
+    "gaeilge": "heitrighnéasach",
+    "gaelg": "",
+    "beurla": "heterosexual",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "ioma-ghnèitheach",
+    "gaeilge": "il-inscnéach",
+    "gaelg": "",
+    "beurla": "multigender",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "ioma-leannanach",
+    "gaeilge": "il-leannánach",
+    "gaelg": "",
+    "beurla": "polyamorous",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig a bheil dàimh romansach le barrachd air aon neach aig an aon àm."
+  },
+  {
+    "gaidhlig": "ioma-leannanachd",
+    "gaeilge": "il-leannánacht",
+    "gaelg": "",
+    "beurla": "polyamory",
+    "grammar": "boir. gin. ioma-leannanachd",
+    "definition": "A' bhith ann an dàimh romansach le barrachd air aon neach aig an aon àm."
+  },
+  {
+    "gaidhlig": "ioma-sheòrsach",
+    "gaeilge": "ilghnéasach",
+    "gaelg": "",
+    "beurla": "polysexual",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig a bheil tàladh romansach no feiseil air daoine de dhiofar ghnèithean."
+  },
+  {
+    "gaidhlig": "ìre nan anti-corp",
+    "gaeilge": "stádas antasubstainte",
+    "gaelg": "",
+    "beurla": "antibody level",
+    "grammar": "boir. gin. ìre nan anti-corp",
+    "definition": "An uiread de dh'anti-cuirp a tha san fhuil."
+  },
+  {
+    "gaidhlig": "leasbach",
+    "gaeilge": "leispiach",
+    "gaelg": "lesbeeagh",
+    "beurla": "lesbian",
+    "grammar": "boir. gin. leasbaich, iol. leasbaich",
+    "definition": "Boireannach aig a bheil tàladh romansach no feiseil air boireannaich eile."
+  },
+  {
+    "gaidhlig": "leasbachd",
+    "gaeilge": "leispiachas",
+    "gaelg": "lesbiaghtys",
+    "beurla": "lesbianism",
+    "grammar": "boir. gin. leasbachd",
+    "definition": "A' bhith nad leasbach."
+  },
+  {
+    "gaidhlig": "leigheas ro-chasgach iar-ghabhalach",
+    "gaeilge": "Próifiolacsas Tar Éis an Nochtaidh",
+    "gaelg": "",
+    "beurla": "Post-Exposure Prophylaxis (PEP)",
+    "grammar": "fir. gin. leighis ro-chasgaich iar-ghabhalaich",
+    "definition": "Leigheas a thèid a thoirt do neach às dèidh dhaibh a bhith an cunnart HIV."
+  },
+  {
+    "gaidhlig": "leigheas ro-chasgach ro-ghabhalach",
+    "gaeilge": "Próifiolacsas Roimh an Nochtaidh",
+    "gaelg": "",
+    "beurla": "Pre-Exposure Prophylaxis (PrEP)",
+    "grammar": "fir. gin. leighis ro-chasgaich ro-ghabhalaich",
+    "definition": "Leigheas a thèid a thoirt do neach mus bi iad ann an cunnart HIV."
+  },
+  {
+    "gaidhlig": "leigheas torrachais",
+    "gaeilge": "cóir leighis torthúlachta / cóireáil torthúlachta",
+    "gaelg": "",
+    "beurla": "fertility treatment",
+    "grammar": "fir. gin. leighis thorrachais",
+    "definition": "Leigheas meadaigeach airson cuideachadh le torrachas."
+  },
+  {
+    "gaidhlig": "leth-bhreith",
+    "gaeilge": "leithcheal / idirdhealú",
+    "gaelg": "",
+    "beurla": "discrimination",
+    "grammar": "boir. gin. leth-bhreith",
+    "definition": "Claon-bhreith an aghaidh neach no buidheann."
+  },
+  {
+    "gaidhlig": "leth-bhreith a thaobh gnè",
+    "gaeilge": "idirdhealú ar bhonn inscne",
+    "gaelg": "",
+    "beurla": "gender-based discrimination",
+    "grammar": "boir. gin. leth-bhreith a thaobh gnè",
+    "definition": "Claon-bhreith an aghaidh neach no buidheann air sgàth gnè."
+  },
+  {
+    "gaidhlig": "leth-ghnèitheach",
+    "gaeilge": "leath-inscneach",
+    "gaelg": "lieh-kynnagh",
+    "beurla": "demigender",
+    "grammar": "bua. coi. -ich",
+    "definition": "Neach aig a bheil dearbh-aithne gnè pàirteach."
+  },
+  {
+    "gaidhlig": "leth-romansach",
+    "gaeilge": "leath-rómánsach",
+    "gaelg": "lieh-romansagh",
+    "beurla": "demiromantic",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig a bheil tàladh romansach lag no pàirteach."
+  },
+  {
+    "gaidhlig": "leth-sheòrsach",
+    "gaeilge": "leath-ghnéasach",
+    "gaelg": "lieh-cheintagh",
+    "beurla": "demisexual",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig a bheil tàladh feiseil lag no pàirteach."
+  },
+  {
+    "gaidhlig": "LGDT+ (Leasbach, Gèidh, Dà-sheòrsach, agus Tar-ghnèitheach)",
+    "gaeilge": "LADT+",
+    "gaelg": "LADT+",
+    "beurla": "LGBT+",
+    "grammar": "giorr.",
+    "definition": "Leasbach, Gèidh, Dà-sheòrsach, agus Tar-ghnèitheach"
+  },
+  {
+    "gaidhlig": "LGDTC+ (Leasbach, Gèidh, Dà-sheòrsach, Tar-ghnèitheach agus Cuèir)",
+    "gaeilge": "LADTA+",
+    "gaelg": "LADTQ+",
+    "beurla": "LGBTQ+",
+    "grammar": "giorr.",
+    "definition": "Leasbach, Gèidh, Dà-sheòrsach, Tar-ghnèitheach agus Cuèir"
+  },
+  {
+    "gaidhlig": "LGDTCEN+ (Leasbach, Gèidh, Dà-sheòrsach, Tar-ghnèitheach, Cuèir, Eadar-ghnèitheach agus Neo-sheòrsach)",
+    "gaeilge": "LADTAIG+",
+    "gaelg": "LADTQEA+",
+    "beurla": "LGBTQIA+",
+    "grammar": "giorr.",
+    "definition": "Leasbach, Gèidh, Dà-sheòrsach, Tar-ghnèitheach, Cuèir, Eadar-ghnèitheach agus Neo-sheòrsach"
+  },
+  {
+    "gaidhlig": "luchd-gèidh",
+    "gaeilge": "daoine aeracha",
+    "gaelg": "deiney aeragh",
+    "beurla": "gay people",
+    "grammar": "iol.",
+    "definition": "Daoine gèidh."
+  },
+  {
+    "gaidhlig": "marbh-ainmich",
+    "gaeilge": "mí-ainmnigh",
+    "gaelg": "",
+    "beurla": "deadname",
+    "grammar": "gnìomh.",
+    "definition": "A' cleachdadh seann ainm neach tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "màthair-ionaid",
+    "gaeilge": "máthair ionaid",
+    "gaelg": "",
+    "beurla": "surrogate mother",
+    "grammar": "boir. gin. màthar-ionaid, iol. màthraichean-ionaid",
+    "definition": "Boireannach a bhios a' giùlan leanabh do chuideigin eile."
+  },
+  {
+    "gaidhlig": "mì-ghnèithich",
+    "gaeilge": "mí-inscnig",
+    "gaelg": "",
+    "beurla": "misgender",
+    "grammar": "bua. coi. -ich",
+    "definition": "A' cleachdadh seann gnè neach tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "mì-rian dearbh-aithne gnè",
+    "gaeilge": "neamhord fhéiniúlacht inscne",
+    "gaelg": "",
+    "beurla": "gender identity disorder",
+    "grammar": "fir. gin. mì-riain dearbh-aithne gnè",
+    "definition": "Tinneas-inntinn far a bheil neach a' faireachdainn mì-chofhurtail leis a' ghnè a chaidh a bhuileachadh orra."
+  },
+  {
+    "gaidhlig": "mion-chuid",
+    "gaeilge": "mionlach",
+    "gaelg": "mynchooid",
+    "beurla": "minority",
+    "grammar": "boir. gin. mion-chuid, iol. mion-chuidean",
+    "definition": "Buidheann de dhaoine nach eil cho cumanta sa chomann-shòisealta."
+  },
+  {
+    "gaidhlig": "nàrachadh",
+    "gaeilge": "náiriú",
+    "gaelg": "naaraghey",
+    "beurla": "shaming",
+    "grammar": "fir. gin. nàrachaidh",
+    "definition": "A' dèanamh neach no buidheann faireachdainn nàraichte."
+  },
+  {
+    "gaidhlig": "neach foidhe",
+    "gaeilge": "bunadóir / bunpháirtí",
+    "gaelg": "",
+    "beurla": "bottom",
+    "grammar": "fir. gin. neach foidhe, iol. daoine foidhe",
+    "definition": "Neach a tha a' gabhail pàirt èigneachail ann am feise."
+  },
+  {
+    "gaidhlig": "neach-gèidh",
+    "gaeilge": "duine aerach",
+    "gaelg": "dooinney aeragh",
+    "beurla": "gay person",
+    "grammar": "fir. gin. neach-gèidh, iol. daoine-gèidh",
+    "definition": "Neach aig a bheil tàladh romansach no feiseil air daoine dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "neach-ionaid",
+    "gaeilge": "ionadaí",
+    "gaelg": "",
+    "beurla": "surrogate",
+    "grammar": "fir. gin. neach-ionaid, iol. daoine-ionaid",
+    "definition": "Neach a bhios a' giùlan leanabh do chuideigin eile."
+  },
+  {
+    "gaidhlig": "neach os a chionn",
+    "gaeilge": "barradóir / barrpháirtí",
+    "gaelg": "",
+    "beurla": "top",
+    "grammar": "fir. gin. neach os a chionn, iol. daoine os an cionn",
+    "definition": "Neach a tha a' gabhail pàirt ghnìomhach ann am feise."
+  },
+  {
+    "gaidhlig": "neo-bhìnearaidh",
+    "gaeilge": "neamh-dhénártha",
+    "gaelg": "",
+    "beurla": "non-binary",
+    "grammar": "bua.",
+    "definition": "Neach nach eil ag aithneachadh gnè fireann no boireann."
+  },
+  {
+    "gaidhlig": "neo-ghnèitheach",
+    "gaeilge": "gan inscne",
+    "gaelg": "neu-kynnagh",
+    "beurla": "agender",
+    "grammar": "bua. coi. -ich",
+    "definition": "Neach aig nach eil dearbh-aithne gnè."
+  },
+  {
+    "gaidhlig": "neo-rèireach a-thaobh gnè",
+    "gaeilge": "neamh-chomhréireach ó thaobh inscne",
+    "gaelg": "",
+    "beurla": "gender non-conforming",
+    "grammar": "bua.",
+    "definition": "Nach eil a' leantainn nòrman sòisealta a thaobh gnè."
+  },
+  {
+    "gaidhlig": "neo-romansach",
+    "gaeilge": "éarómánsúil",
+    "gaelg": "",
+    "beurla": "aromantic",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig nach eil tàladh romansach air daoine."
+  },
+  {
+    "gaidhlig": "neo-shàstachd gnè",
+    "gaeilge": "diosfóirir inscne",
+    "gaelg": "",
+    "beurla": "gender dysphoria",
+    "grammar": "boir. gin. neo-shàstachd gnè",
+    "definition": "Faireachdainn de mhì-chofhurtachd le do ghnè."
+  },
+  {
+    "gaidhlig": "neo-sheòrsach",
+    "gaeilge": "éighnéasach",
+    "gaelg": "ancheintyssagh",
+    "beurla": "asexual",
+    "grammar": "bua. coi. -aiche",
+    "definition": "Neach aig nach eil tàladh feiseil air daoine."
+  },
+  {
+    "gaidhlig": "neodroiseach",
+    "gaeilge": "neodrasach",
+    "gaelg": "",
+    "beurla": "neutrois",
+    "grammar": "bua. coi. -ich",
+    "definition": "Nach eil a' buntainn ri gnè sònraichte."
+  },
+  {
+    "gaidhlig": "nochdadh gnè",
+    "gaeilge": "léiriú inscne",
+    "gaelg": "",
+    "beurla": "gender expression",
+    "grammar": "fir. gin. nochdaidh gnè",
+    "definition": "Mar a tha cuideigin a' nochdadh an gnè aca."
+  },
+  {
+    "gaidhlig": "nòrmadachd na h-eile-sheòrsachd",
+    "gaeilge": "heitreanormatacht",
+    "gaelg": "",
+    "beurla": "heteronormativity",
+    "grammar": "boir. gin. nòrmadachd na h-eile-sheòrsachd",
+    "definition": "An smuain gu bheil e àbhaisteach a bhith eile-sheòrsach agus neo-àbhaisteach a bhith co-sheòrsach."
+  },
+  {
+    "gaidhlig": "obair-lannsa ath-bhuileachadh gnè",
+    "gaeilge": "máinliacht daingnithe inscne",
+    "gaelg": "",
+    "beurla": "gender reassignment surgery",
+    "grammar": "boir. gin. obrach-lannsa ath-bhuileachadh gnè",
+    "definition": "Obair-lannsa gus gnè neach atharrachadh."
+  },
+  {
+    "gaidhlig": "obair-lannsa boireannachaidh",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "feminisation surgery",
+    "grammar": "boir. gin. obrach-lannsa boireannachaidh",
+    "definition": "Obair-lannsa gus coltas boireannach a thoirt air bodhaig."
+  },
+  {
+    "gaidhlig": "obair-lannsa bràigh na bodhaige",
+    "gaeilge": "barrmháinliacht / máinliacht uachtair",
+    "gaelg": "",
+    "beurla": "top surgery",
+    "grammar": "boir. gin. obrach-lannsa bràigh na bodhaige",
+    "definition": "Obair-lannsa air pàirt àrd dhen bhodhaig."
+  },
+  {
+    "gaidhlig": "obair-lannsa bun na bodhaige",
+    "gaeilge": "bunmháinliacht / máinliacht íochtair",
+    "gaelg": "",
+    "beurla": "bottom surgery",
+    "grammar": "boir. gin. obrach-lannsa bun na bodhaige",
+    "definition": "Obair-lannsa air pàirt ìosal dhen bhodhaig."
+  },
+  {
+    "gaidhlig": "obair-lannsa daingneachadh gnè",
+    "gaeilge": "máinliacht daingnithe inscne",
+    "gaelg": "",
+    "beurla": "gender confirmation surgery",
+    "grammar": "boir. gin. obrach-lannsa daingneachadh gnè",
+    "definition": "Obair-lannsa gus gnè neach atharrachadh."
+  },
+  {
+    "gaidhlig": "obair-lannsa fireannachaidh",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "masculinisation surgery",
+    "grammar": "boir. gin. obrach-lannsa fireannachaidh",
+    "definition": "Obair-lannsa gus coltas fireannach a thoirt air bodhaig."
+  },
+  {
+    "gaidhlig": "oidheam-gnè",
+    "gaeilge": "leid inscne",
+    "gaelg": "",
+    "beurla": "gender cue",
+    "grammar": "fir. gin. oidheim-ghnè",
+    "definition": "Faireachdainn de thoileachas le do ghnè."
+  },
+  {
+    "gaidhlig": "oillt cho-sheòrsach",
+    "gaeilge": "homafóibe",
+    "gaelg": "",
+    "beurla": "homophobia",
+    "grammar": "boir. gin. oillt cho-sheòrsaich",
+    "definition": "Eagal no gràin air daoine co-sheòrsach."
+  },
+  {
+    "gaidhlig": "oillt dhà-sheòrsach",
+    "gaeilge": "défhóibe",
+    "gaelg": "",
+    "beurla": "biphobia",
+    "grammar": "boir. gin. oillt dhà-sheòrsaich",
+    "definition": "Eagal no gràin air daoine dà-sheòrsach."
+  },
+  {
+    "gaidhlig": "oillt thar-ghnèitheach",
+    "gaeilge": "trasfhóibe",
+    "gaelg": "",
+    "beurla": "transphobia",
+    "grammar": "boir. gin. oillt thar-ghnèithich",
+    "definition": "Eagal no gràin air daoine tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "Os-fhàs Co-ghrùthanach Co-bhreitheach",
+    "gaeilge": "Hipearpláise Aidréineach Comhbheirthe",
+    "gaelg": "",
+    "beurla": "Congenital Adrenal Hyperplasia",
+    "grammar": "fir. gin. Os-fhàis Cho-ghrùthanaich Cho-bhreitich",
+    "definition": "Suidheachadh far a bheil dà ghrùthan aig neach."
+  },
+  {
+    "gaidhlig": "pan-sheòrsach",
+    "gaeilge": "il-ghnéasach",
+    "gaelg": "ooilley-cheintyssagh",
+    "beurla": "pansexual",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "pasaigeadh",
+    "gaeilge": "pasáil",
+    "gaelg": "",
+    "beurla": "passing",
+    "grammar": "fir. gin. pasaigidh",
+    "definition": "A' dol seachad mar neach de ghnè eile."
+  },
+  {
+    "gaidhlig": "patran-chròmasoman",
+    "gaeilge": "patrún na gcrómasóm",
+    "gaelg": "",
+    "beurla": "chromosome pattern",
+    "grammar": "fir. gin. patran-chròmasoman",
+    "definition": "An dòigh anns a bheil cròmasoman air an cur còmhla."
+  },
+  {
+    "gaidhlig": "pòsadh aon-ghnèitheach",
+    "gaeilge": "pósadh comhinscne",
+    "gaelg": "",
+    "beurla": "same-gender marriage",
+    "grammar": "fir. gin. pòsaidh aon-ghnèithich",
+    "definition": "Pòsadh eadar dithis dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "pòsadh aon-sheòrsach",
+    "gaeilge": "pósadh comhghnéis",
+    "gaelg": "",
+    "beurla": "same-sex marriage",
+    "grammar": "fir. gin. pòsaidh aon-sheòrsaich",
+    "definition": "Pòsadh eadar dithis dhen aon ghnè."
+  },
+  {
+    "gaidhlig": "pribhleid eile-sheòrsach",
+    "gaeilge": "pribhléid heitrighnéasach",
+    "gaelg": "",
+    "beurla": "heterosexual privilege",
+    "grammar": "boir. gin. pribhleid eile-sheòrsaich",
+    "definition": "Buannachdan sòisealta a tha daoine eile-sheòrsach a' faighinn."
+  },
+  {
+    "gaidhlig": "pròis",
+    "gaeilge": "bród",
+    "gaelg": "moyrn",
+    "beurla": "pride",
+    "grammar": "boir. gin. pròise",
+    "definition": "Faireachdainn de dh'fhèin-spèis agus misneachd mu do dhearbh-aithne LGDT+."
+  },
+  {
+    "gaidhlig": "pròis ghèidh",
+    "gaeilge": "bród aerach",
+    "gaelg": "moyrn aeragh",
+    "beurla": "gay pride",
+    "grammar": "boir. gin. pròise gèidh",
+    "definition": "Faireachdainn de dh'fhèin-spèis agus misneachd mu bhith gèidh."
+  },
+  {
+    "gaidhlig": "pròiseil",
+    "gaeilge": "bródúil",
+    "gaelg": "moyrnagh",
+    "beurla": "proud",
+    "grammar": "bua. coi. pròiseil",
+    "definition": "A' faireachdainn pròis."
+  },
+  {
+    "gaidhlig": "rìgh draga",
+    "gaeilge": "rí draig",
+    "gaelg": "ree drag",
+    "beurla": "drag king",
+    "grammar": "fir. gin. rìgh draga, iol. rìghrean draga",
+    "definition": "Boireannach no neach neo-bhinearan a tha a' cur orra coltas fireannach mar phàirt de thaisbeanadh ealain."
+  },
+  {
+    "gaidhlig": "riochdair",
+    "gaeilge": "forainm",
+    "gaelg": "far-ennym",
+    "beurla": "pronoun",
+    "grammar": "fir. gin. riochdair, iol. riochdairean",
+    "definition": "Facal a thèid a chleachdadh an àite ainm."
+  },
+  {
+    "gaidhlig": "riochdairean ròghnaichte",
+    "gaeilge": "forainmneacha roghnaithe",
+    "gaelg": "",
+    "beurla": "preferred pronouns",
+    "grammar": "iol.",
+    "definition": "Na riochdairean as fheàrr le neach a bhith air an cleachdadh dhaibh."
+  },
+  {
+    "gaidhlig": "riochdairean Spivak",
+    "gaeilge": "forainmneacha Spivak",
+    "gaelg": "",
+    "beurla": "Spivak pronouns",
+    "grammar": "iol.",
+    "definition": "Seata de riochdairean neo-ghnèitheach a chaidh a chruthachadh le Michael Spivak."
+  },
+  {
+    "gaidhlig": "ro obair-lannsa",
+    "gaeilge": "réamh-obráid",
+    "gaelg": "ro-obbraghey",
+    "beurla": "pre-op",
+    "grammar": "gnàthas",
+    "definition": "Neach tar-ghnèitheach nach eil fhathast air obair-lannsa daingneachadh gnè fhaighinn."
+  },
+  {
+    "gaidhlig": "sa chlòsaid",
+    "gaeilge": "faoi choim",
+    "gaelg": "",
+    "beurla": "in the closet",
+    "grammar": "gnàthas",
+    "definition": "Gun a bhith air innse do dhaoine eile mu do dhearbh-aithne LGDT+."
+  },
+  {
+    "gaidhlig": "seachranachd gnè",
+    "gaeilge": "éagsúlacht i bhforbairt an ghnéis",
+    "gaelg": "",
+    "beurla": "gender variance",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "sìolachadh fuadain",
+    "gaeilge": "inseamhnú saorga",
+    "gaelg": "laue-heeley",
+    "beurla": "artificial insemination",
+    "grammar": "fir. gin. sìolachaidh fhuadain",
+    "definition": "Dòigh meadaigeach air leanabh a ghineamhainn."
+  },
+  {
+    "gaidhlig": "Sionndram Easbhaidh Ion-dhìon Togte",
+    "gaeilge": "Siondróm Easpa Imdhíonachta Faighte",
+    "gaelg": "",
+    "beurla": "Acquired Immunodeficiency Syndrome (AIDS)",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "Sionndram Neo-mhothalachd nan Gineachan Fireann",
+    "gaeilge": "Siondróm Neamh-mhothálachta ar Andraiginí",
+    "gaelg": "",
+    "beurla": "Androgen Insensitivity Syndrome",
+    "grammar": "fir. gin. Sionndraim Neo-mhothalachd nan Gineachan Fireann",
+    "definition": "Suidheachadh far nach eil bodhaig neach a' freagairt ri testosterone."
+  },
+  {
+    "gaidhlig": "speactram gnè",
+    "gaeilge": "speictream inscne",
+    "gaelg": "",
+    "beurla": "gender spectrum",
+    "grammar": "fir. gin. speactraim ghnè",
+    "definition": "An raon de dhiofar dhòighean anns am faod daoine an gnè aca a bhith."
+  },
+  {
+    "gaidhlig": "sùbailteachd",
+    "gaeilge": "solúbthacht",
+    "gaelg": "",
+    "beurla": "flexibility",
+    "grammar": "boir. gin. sùbailteachd",
+    "definition": "A' bhith comasach air atharrachadh."
+  },
+  {
+    "gaidhlig": "sùbailteachd-gnè",
+    "gaeilge": "solúbthacht inscne",
+    "gaelg": "",
+    "beurla": "gender fluidity",
+    "grammar": "boir. gin. sùbailteachd-gnè",
+    "definition": "A' bhith comasach air atharrachadh eadar diofar ghnèithean."
+  },
+  {
+    "gaidhlig": "taisbeantas gnè",
+    "gaeilge": "léiriú insce",
+    "gaelg": "",
+    "beurla": "gender performance",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "taobhadh-feise",
+    "gaeilge": "gnéaschlaonadh / claonadh gnéis",
+    "gaelg": "",
+    "beurla": "sexual orientation",
+    "grammar": "fir. gin. taobhaidh-fheise",
+    "definition": "An seòrsa dhaoine air a bheil tàladh romansach no feiseil aig neach."
+  },
+  {
+    "gaidhlig": "taobhadh measgaichte",
+    "gaeilge": "claonadh measctha",
+    "gaelg": "",
+    "beurla": "crossed/mixed orientation",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "taobhadh romansach",
+    "gaeilge": "claonadh rómánsach",
+    "gaelg": "",
+    "beurla": "romantic orientation",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "tar-bhalach",
+    "gaeilge": "buachaill tras",
+    "gaelg": "",
+    "beurla": "a trans boy",
+    "grammar": "",
+    "definition": "Balach tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "tar-bhoireann",
+    "gaeilge": "trasbhaineann",
+    "gaelg": "",
+    "beurla": "transfeminine",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "tar-bhoireannach",
+    "gaeilge": "bean thras",
+    "gaelg": "",
+    "beurla": "a trans woman",
+    "grammar": "boir. gin. tar-bhoireannaich, iol. tar-bhoireannaich",
+    "definition": "Boireannach tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "tar-chaileag",
+    "gaeilge": "cailín tras",
+    "gaelg": "",
+    "beurla": "a trans girl",
+    "grammar": "",
+    "definition": "Caileagan tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "tar-dhuine",
+    "gaeilge": "fear tras",
+    "gaelg": "",
+    "beurla": "a trans man",
+    "grammar": "",
+    "definition": "Duine tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "tar-eidiche",
+    "gaeilge": "trasfheisteoir",
+    "gaelg": "",
+    "beurla": "a transvestite",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "tar-fhireann",
+    "gaeilge": "trasfhireann",
+    "gaelg": "",
+    "beurla": "transmasculine",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "tar-fhireannach",
+    "gaeilge": "fear tras",
+    "gaelg": "dooinney harr",
+    "beurla": "trans man",
+    "grammar": "fir. gin. tar-fhireannaich, iol. tar-fhireannaich",
+    "definition": "Fireannach tar-ghnèitheach."
+  },
+  {
+    "gaidhlig": "tar-ghnèitheach",
+    "gaeilge": "trasinscneach",
+    "gaelg": "tar-kynnagh",
+    "beurla": "transgender",
+    "grammar": "bua.",
+    "definition": "Neach aig a bheil dearbh-aithne gnè eadar-dhealaichte bhon ghnè a chaidh a bhuileachadh orra nuair a rugadh iad."
+  },
+  {
+    "gaidhlig": "tar-neach",
+    "gaeilge": "duine tras",
+    "gaelg": "",
+    "beurla": "a trans person",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "tar-sheòrsach",
+    "gaeilge": "trasghnéasach",
+    "gaelg": "",
+    "beurla": "transsexual",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "te foidhpe",
+    "gaeilge": "bunadóir / bunpháirtí",
+    "gaelg": "",
+    "beurla": "bottom",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "te os a cionn",
+    "gaeilge": "barradóir / barrpháirtí",
+    "gaelg": "",
+    "beurla": "top",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "teiripe brodagan boireannachaidh",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "feminising hormone therapy",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "teiripe brodagan fireannachaidh",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "masculinising hormone therapy",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "teiripe iompachaidh",
+    "gaeilge": "teiripe iompaithe",
+    "gaelg": "",
+    "beurla": "conversion therapy",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "teiripe ionadachadh bhrodagan",
+    "gaeilge": "teiripe athsholáthair hormón",
+    "gaelg": "",
+    "beurla": "hormone replacement therapy (HRT)",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "teisteanas aithneachadh gnè",
+    "gaeilge": "deimhniú aitheantais inscne",
+    "gaelg": "",
+    "beurla": "gender recognition certificate (GRC)",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "teisteostaron",
+    "gaeilge": "téististéarón",
+    "gaelg": "",
+    "beurla": "testosterone",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "thar-bhith-beò",
+    "gaeilge": "trasbheomhar",
+    "gaelg": "",
+    "beurla": "cross-living",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "tighinn a-mach",
+    "gaeilge": "teacht amach",
+    "gaelg": "",
+    "beurla": "coming out",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "uile-ghnèitheach",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "unigender",
+    "grammar": "",
+    "definition": ""
+  },
+  {
+    "gaidhlig": "uile-sheòrsach",
+    "gaeilge": "",
+    "gaelg": "",
+    "beurla": "unisex",
+    "grammar": "",
+    "definition": ""
+  }
+]

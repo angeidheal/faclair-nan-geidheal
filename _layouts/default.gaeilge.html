@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ga">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - Foclóir na nGaylgeoirí</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% seo %}
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <a href="/" class="nav-button">Baile</a>
+            <a href="/about" class="nav-button">Faoi</a>
+            <a href="/browse" class="nav-button">Brabhsaigh</a>
+            {% include language-switcher.html %}
+            <button class="theme-toggle" aria-label="Athraigh téama">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    {% if page.url == "/" %}
+    <div class="hero">
+        <a href="/" class="logo-link">
+            <img src="{{ '/assets/logo.png' | relative_url }}" alt="Lógó Foclóir na nGaylgeoirí" class="logo">
+            <h1>Foclóir na nGaylgeoirí</h1>
+        </a>
+        <p class="subtitle">
+            le <a href="https://angeidhealur.scot/" target="_blank" rel="noopener noreferrer">an Gaylgeoir Ùr</a>
+        </p>
+    </div>
+    {% endif %}
+
+    {{ content }}
+    <script src="{{ '/assets/js/shared.js' | relative_url }}"></script>
+    {% if page.url == "/" %}
+    <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+    {% endif %}
+</body>
+</html> 

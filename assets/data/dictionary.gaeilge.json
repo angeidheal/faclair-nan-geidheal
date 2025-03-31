@@ -1,0 +1,26 @@
+[
+    {
+        "gaidhlig": "gay",
+        "gaeilge": "gay",
+        "gaelg": "gay",
+        "beurla": "gay",
+        "grammar": "buadhair",
+        "definition": "duine a bhfuil suim aige/aici ina gcomhghnéis"
+    },
+    {
+        "gaidhlig": "lesbian",
+        "gaeilge": "leispiach",
+        "gaelg": "lesbian",
+        "beurla": "lesbian",
+        "grammar": "buadhair",
+        "definition": "bean a bhfuil suim aici i mná eile"
+    },
+    {
+        "gaidhlig": "trans",
+        "gaeilge": "tras",
+        "gaelg": "trans",
+        "beurla": "trans",
+        "grammar": "buadhair",
+        "definition": "duine nach bhfuil a n-inscne bheirthe ina n-inscne fhéin"
+    }
+] 

@@ -1,0 +1,10 @@
+{% assign current_lang = site.language %}
+<div class="language-switcher">
+    {% for lang in site.languages %}
+        {% if lang[0] != current_lang %}
+            <a href="https://{{ lang[1].domain }}" class="nav-button">
+                {{ lang[1].name }}
+            </a>
+        {% endif %}
+    {% endfor %}
+</div> 
