@@ -19,7 +19,7 @@ jobs:
       
       - name: Sync to Irish Repository
         run: |
-          git remote add gaeilge https://${{ secrets.FOCLOIR_TOKEN }}@github.com/angeidheal/foclóir-na-ngaylgeoirí.git
+          git remote add gaeilge https://${{ secrets.FOCLOIR_TOKEN }}@github.com/angeidheal/focloir-na-ngaylgeoiri.git
           git push gaeilge main
       
       - name: Sync to Manx Repository
