@@ -79,7 +79,7 @@ const SearchPage: React.FC = () => {
           >
             <Box
               component="img"
-              src="/faclair-nan-geidheal/assets/logo.png"
+              src={`${process.env.PUBLIC_URL}/assets/logo.png`}
               alt=""
               onError={(e) => {
                 console.error('Error loading logo:', e);
