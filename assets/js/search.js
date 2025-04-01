@@ -44,41 +44,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
         searchResults.innerHTML = results.map(entry => `
             <div class="dictionary-entry">
-                <div class="word">${entry.gaidhlig}</div>
-                <div class="translations">
-                    ${entry.gaeilge ? `
-                        <div class="translation">
-                            <span class="translation-label">${window.siteContent.translations.gaeilge}</span>
-                            <span class="translation-value">${entry.gaeilge}</span>
+                <div class="entry-header">
+                    <div class="word">${entry.gaidhlig}</div>
+                    <button class="toggle-button" aria-label="Toggle entry details">
+                        <span class="toggle-icon">▶</span>
+                    </button>
+                </div>
+                <div class="entry-content collapsed">
+                    <div class="translations">
+                        ${entry.gaeilge ? `
+                            <div class="translation">
+                                <span class="translation-label">${window.siteContent.translations.gaeilge}</span>
+                                <span class="translation-value">${entry.gaeilge}</span>
+                            </div>
+                        ` : ''}
+                        ${entry.gaelg ? `
+                            <div class="translation">
+                                <span class="translation-label">${window.siteContent.translations.gaelg}</span>
+                                <span class="translation-value">${entry.gaelg}</span>
+                            </div>
+                        ` : ''}
+                        ${entry.beurla ? `
+                            <div class="translation">
+                                <span class="translation-label">${window.siteContent.translations.beurla}</span>
+                                <span class="translation-value">${entry.beurla}</span>
+                            </div>
+                        ` : ''}
+                    </div>
+                    ${entry.grammar ? `
+                        <div class="grammar">
+                            <span class="translation-label">${window.siteContent.translations.grammar}</span>
+                            <span class="translation-value">${entry.grammar}</span>
                         </div>
                     ` : ''}
-                    ${entry.gaelg ? `
-                        <div class="translation">
-                            <span class="translation-label">${window.siteContent.translations.gaelg}</span>
-                            <span class="translation-value">${entry.gaelg}</span>
-                        </div>
-                    ` : ''}
-                    ${entry.beurla ? `
-                        <div class="translation">
-                            <span class="translation-label">${window.siteContent.translations.beurla}</span>
-                            <span class="translation-value">${entry.beurla}</span>
+                    ${entry.definition ? `
+                        <div class="definition">
+                            <span class="translation-label">${window.siteContent.translations.definition}</span>
+                            <span class="translation-value">${entry.definition}</span>
                         </div>
                     ` : ''}
                 </div>
-                ${entry.grammar ? `
-                    <div class="grammar">
-                        <span class="translation-label">${window.siteContent.translations.grammar}</span>
-                        <span class="translation-value">${entry.grammar}</span>
-                    </div>
-                ` : ''}
-                ${entry.definition ? `
-                    <div class="definition">
-                        <span class="translation-label">${window.siteContent.translations.definition}</span>
-                        <span class="translation-value">${entry.definition}</span>
-                    </div>
-                ` : ''}
             </div>
         `).join('');
+
+        searchResults.querySelectorAll('.toggle-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const entryContent = button.closest('.dictionary-entry').querySelector('.entry-content');
+                const toggleIcon = button.querySelector('.toggle-icon');
+                entryContent.classList.toggle('collapsed');
+                toggleIcon.textContent = entryContent.classList.contains('collapsed') ? '▶' : '▼';
+            });
+        });
     };
 
     const clearButton = document.createElement('button');
