@@ -392,10 +392,32 @@ header {
     .search-container,
     .content-container {
         padding: 0 0.5rem;
+        max-width: 100%;
     }
 
-    .translations {
-        grid-template-columns: 1fr;
+    .search-input-wrapper {
+        padding: 0.5rem;
+    }
+
+    .search-input {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .dictionary-entry {
+        padding: 0.75rem;
+    }
+
+    .word {
+        font-size: 1rem;
+    }
+
+    .translation-label {
+        font-size: 0.8rem;
+    }
+
+    .translation-value {
+        font-size: 0.9rem;
     }
 
     header {
@@ -416,7 +438,7 @@ header {
     }
 
     .browse-results .dictionary-entry {
-        padding: 1rem;
+        padding: 0.75rem;
     }
     
     .browse-results .word {
