@@ -122,9 +122,11 @@ h1 {
 }
 
 .search-container {
+    width: 100%;
     max-width: 584px;
     margin: 0 auto;
     padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 .search-input-wrapper {
@@ -136,6 +138,7 @@ h1 {
     padding: 0.5rem 1rem;
     background-color: var(--background-color);
     width: 100%;
+    box-sizing: border-box;
 }
 
 .search-input {
@@ -177,6 +180,7 @@ h1 {
     width: 100%;
     margin: 1rem auto 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .dictionary-entry {
@@ -188,6 +192,7 @@ h1 {
     margin-bottom: 1.5rem;
     box-shadow: 0 2px 4px var(--shadow-color);
     transition: box-shadow 0.2s;
+    box-sizing: border-box;
 }
 
 .dictionary-entry:hover {
@@ -328,9 +333,11 @@ header {
 }
 
 .content-container {
+    width: 100%;
     max-width: 584px;
     margin: 2rem auto;
     padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 .content-container h2 {
@@ -358,6 +365,7 @@ header {
     gap: 1rem;
     margin-top: 2rem;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .browse-results .word {
@@ -387,6 +395,8 @@ header {
 @media (max-width: 600px) {
     body {
         padding-top: 3rem;
+        width: 100%;
+        overflow-x: hidden;
     }
 
     .logo {
@@ -409,22 +419,32 @@ header {
     }
 
     .search-container,
-    .content-container {
+    .content-container,
+    .hero,
+    .description {
         padding: 0 0.5rem;
+        width: 100%;
         max-width: 100%;
+        box-sizing: border-box;
     }
 
     .search-input-wrapper {
         padding: 0.5rem;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .search-input {
         padding: 0.5rem;
         font-size: 0.9rem;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .dictionary-entry {
         padding: 0.75rem;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .word {
@@ -441,10 +461,14 @@ header {
 
     header {
         padding: 0.5rem;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .nav-menu {
         gap: 0.5rem;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .nav-button {
@@ -458,10 +482,14 @@ header {
 
     .browse-results {
         gap: 0.75rem;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .browse-results .dictionary-entry {
         padding: 0.75rem;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .browse-results .word {
